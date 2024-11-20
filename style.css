@@ -4,3 +4,21 @@ body{
 img{
     max-width: 100%;
 }
+.features{
+    position: relative;
+}
+.features .heading {
+    position: relative; 
+    padding-left: 15px;  
+}
+.features .heading::after{
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 3px;
+    top: 0;
+    left: 0px;
+    margin-right: 10px;  
+    background-color: #FF900E;
+     
+}
